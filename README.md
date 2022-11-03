@@ -24,7 +24,6 @@ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-l
 npm install --save-dev path html-webpack-plugin
 
 npm install react react-dom
-npm install process
 ```
 
 ### create folder structure
