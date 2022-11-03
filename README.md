@@ -7,6 +7,13 @@
  https://www.youtube.com/watch?v=WDpxqopXd9U
  --->
 
+### to simply run app
+```
+npm install
+npm run build
+npm run run-dev
+```
+
 # React app - boilerplate code
 
 **using webpack & babel**
