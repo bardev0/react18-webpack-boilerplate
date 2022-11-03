@@ -24,7 +24,7 @@ module.exports = {
   },
   plugins: [
     new HTMLWebpackPlugin({
-      title: "Web Server",
+      title: "Test",
       filename: "index.html",
       template: "./src/template.html",
     }),
