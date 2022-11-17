@@ -234,6 +234,6 @@ _in *modules*
 {
   test: /\.css$/,
   exclude: /node_modules/,
-  use: ['style-loader','css-loader'] //loader are working in reverse order
+  use: ['style-loader','css-loader'] //loaders are working in reverse order
 }
 ```
