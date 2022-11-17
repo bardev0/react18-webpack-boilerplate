@@ -1,5 +1,5 @@
 node_modules
-
+dist
 
 # Official GitHub macOS.gitignore
 .DS_Store

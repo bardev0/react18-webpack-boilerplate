@@ -212,3 +212,28 @@ export default App;
 
 
 ```
+## add styling by CSS
+### instal required modules
+```
+npm install --save-dev style-loader css-loader
+```
+
+### create css file
+```
+touch ./src/styles.css
+```
+
+### import css into _index.js_
+```
+import './styles.css'
+```
+
+### edit _webpack.config.js_
+_in *modules*
+```
+{
+  test: /\.css$/,
+  exclude: /node_modules/,
+  use: ['style-loader','css-loader'] //loader are working in reverse order
+}
+```
